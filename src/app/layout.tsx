@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Button } from "@/components/ui/button"
+import { Menu, Search, User } from "lucide-react"
+import Link from "next/link";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -25,11 +28,49 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <header className="border-b">
+        <div className="container mx-auto px-4 py-4 flex items-center justify-between">
+          <div className="flex items-center space-x-4">
+            <Button variant="ghost" size="icon" className="md:hidden">
+              <Menu className="h-6 w-6" />
+              <span className="sr-only">Menu</span>
+            </Button>
+            <h1 className="text-2xl font-bold">Pollen</h1>
+          </div>
+          <nav className="hidden md:flex space-x-4">
+            <Link href="/" passHref>
+              <Button variant="ghost" className="cursor-pointer">Home</Button>
+            </Link>
+            <Link href="/about" passHref>
+              <Button variant="ghost" className="cursor-pointer">About</Button>
+            </Link>
+          </nav>
+          <div className="flex items-center space-x-4">
+            <Button variant="ghost" size="icon">
+              <Search className="h-5 w-5" />
+              <span className="sr-only">Search</span>
+            </Button>
+            <Button variant="ghost" size="icon">
+              <User className="h-5 w-5" />
+              <span className="sr-only">Account</span>
+            </Button>
+          </div>
+        </div>
+      </header>
         {children}
       </body>
+      <footer className="border-t mt-12">
+        <div className="container mx-auto px-4 py-6 flex flex-col md:flex-row justify-center items-center">
+          <div className="text-sm text-muted-foreground mb-4 md:mb-0">
+            © 2024 Liam Burns. All rights reserved.
+          </div>
+          
+        </div>
+      </footer>
     </html>
   );
 }
