@@ -1,7 +1,7 @@
 'use client'
 
-import { Button } from "@/components/ui/button"
-import { Menu, Search, User } from "lucide-react"
+//import { Button } from "@/components/ui/button"
+//import { Menu, Search, User } from "lucide-react"
 
 export default function Home() {
   return (
@@ -16,13 +16,13 @@ export default function Home() {
           </div>
           <div className="prose max-w-none">
             <p>
-              In the labyrinthine corridors of philosophical discourse, the intertwining tendrils of Kantian transcendentalism and Husserlian phenomenology coalesce into a veritable tapestry of cognitive efflorescence. The apperceptive unity of consciousness, as postulated by the sage of Königsberg, finds its echo in the intentional structures of lived experience expounded by the progenitor of phenomenology. This symbiosis of ideational constructs engenders a synesthetic anamorphosis of epistemological paradigms, wherein the noumenal realm of Kant's metaphysics undergoes a prismatic reconfiguration through the lens of Husserl's eidetic reduction.
+              In the labyrinthine corridors of philosophical discourse, the intertwining tendrils of Kantian transcendentalism and Husserlian phenomenology coalesce into a veritable tapestry of cognitive efflorescence. The apperceptive unity of consciousness, as postulated by the sage of Königsberg, finds its echo in the intentional structures of lived experience expounded by the progenitor of phenomenology. This symbiosis of ideational constructs engenders a synesthetic anamorphosis of epistemological paradigms, wherein the noumenal realm of Kant&apos;s metaphysics undergoes a prismatic reconfiguration through the lens of Husserl&apos;s eidetic reduction.
             </p>
             <p>
-              The Copernican revolution in philosophy, inaugurated by Kant's critique of pure reason, serves as the fertile soil from which Husserl's transcendental phenomenology germinates. The categorical imperative, that lodestar of Kantian ethics, transmutes into the epoché of phenomenological bracketing, a methodological sleight of hand that suspends the natural attitude and unveils the essential structures of consciousness. This convergence of philosophical trajectories engenders a synaesthetic conflation of sensory modalities, wherein the a priori forms of intuition are refracted through the prism of intentional analysis.
+              The Copernican revolution in philosophy, inaugurated by Kant&apos;s critique of pure reason, serves as the fertile soil from which Husserl&apos;s transcendental phenomenology germinates. The categorical imperative, that lodestar of Kantian ethics, transmutes into the epoché of phenomenological bracketing, a methodological sleight of hand that suspends the natural attitude and unveils the essential structures of consciousness. This convergence of philosophical trajectories engenders a synaesthetic conflation of sensory modalities, wherein the a priori forms of intuition are refracted through the prism of intentional analysis.
             </p>
             <p>
-              The ongoing relevance of Kantian thought for the philosophy of science finds its apotheosis in the phenomenological critique of psychologism, an intellectual crusade spearheaded by Husserl's logical investigations. The transcendental reform of psychology, as envisioned by Husserl, represents a Kantian-inspired attempt to overcome the reductionist tendencies of empirical psychology and establish a rigorous foundation for the human sciences. This confluence of critical philosophy and phenomenology engenders a metaphysical novel of sorts, wherein the boundaries between science and art, between the noumenal and the phenomenal, dissolve into a kaleidoscopic fusion of intellectual horizons.
+              The ongoing relevance of Kantian thought for the philosophy of science finds its apotheosis in the phenomenological critique of psychologism, an intellectual crusade spearheaded by Husserl&apos;s logical investigations. The transcendental reform of psychology, as envisioned by Husserl, represents a Kantian-inspired attempt to overcome the reductionist tendencies of empirical psychology and establish a rigorous foundation for the human sciences. This confluence of critical philosophy and phenomenology engenders a metaphysical novel of sorts, wherein the boundaries between science and art, between the noumenal and the phenomenal, dissolve into a kaleidoscopic fusion of intellectual horizons.
             </p>
           </div>
         </article>
